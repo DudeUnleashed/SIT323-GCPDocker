@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: mynode
-        image: gcr.io/sit323-23t1-mansfield-84d3dba/node-web-app:latest
+        image: gcr.io/theta-messenger-388512/node-web-app:latest
         ports:
         - containerPort: 8080

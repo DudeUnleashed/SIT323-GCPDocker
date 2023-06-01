@@ -9,7 +9,7 @@ steps:
 
 #change image of deployment
 - name: 'gcr.io/gcloud-builder/kubectl'
-  args: ['set', 'image', 'deployment/mydeployment', 'mynode=gcr.io/sit323-23t1-mansfield-84d3dba/node-web-app:$COMMIT_SHA']
+  args: ['set', 'image', 'deployment/mydeployment', 'mynode=gcr.io/theta-messenger-388512/node-web-app:$COMMIT_SHA']
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=us-west1'
   - 'CLOUDSDK_CONTAINER_CLUSTER=hello-cluster'
